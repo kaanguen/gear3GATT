@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Tizen: Wearable-4.0-SDK pruefen (nur lesen)",
+      "type": "process",
+      "command": "python3",
+      "args": ["${workspaceFolder}/gear-s3-sensor-bridge/tools/check_sdk.py"],
+      "problemMatcher": []
+    }
+  ]
+}

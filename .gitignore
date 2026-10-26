@@ -1,0 +1,3 @@
+.sdk/
+gear-s3-sensor-bridge/build-*/
+gear-s3-sensor-bridge/tools/sdk.local.json

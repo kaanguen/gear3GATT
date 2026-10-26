@@ -1,0 +1,7 @@
+{
+    "tizen.v2.working.project": "/Users/kaan/Tizen/gear-s3-sensor-bridge",
+    "cmake.sourceDirectory": "${workspaceFolder}/gear-s3-sensor-bridge",
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "cmake.automaticReconfigure": false
+}

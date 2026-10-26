@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0"
+          package="org.tizen.gears3sensorbridge" version="1.0.0">
+  <profile name="wearable"/>
+  <ui-application appid="org.tizen.gears3sensorbridge"
+                  exec="gear_s3_sensor_bridge"
+                  type="capp" multiple="false" taskmanage="true"
+                  nodisplay="false">
+    <label>Sensor Bridge</label>
+  </ui-application>
+  <feature name="http://tizen.org/feature/network.bluetooth.le">true</feature>
+  <privileges>
+    <privilege>http://tizen.org/privilege/bluetooth</privilege>
+    <privilege>http://tizen.org/privilege/healthinfo</privilege>
+  </privileges>
+</manifest>
